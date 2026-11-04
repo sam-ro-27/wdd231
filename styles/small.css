@@ -123,3 +123,9 @@ footer {
 footer a {
     color: #ffffff;
 }
+
+footer a img {
+    width: 32px;
+    height: auto;
+    display: inline-block;
+}
