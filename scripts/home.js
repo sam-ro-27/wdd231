@@ -10,3 +10,8 @@ const lastModifiedElement = document.getElementById("lastModified");
 if (lastModifiedElement) {
     lastModifiedElement.textContent = `Last modified: ${lastModifiedString}`;
 }
+const menuButton = document.getElementById("menu");
+const nav = document.querySelector("nav");
+menuButton.addEventListener("click", () => {
+    nav.classList.toggle("show");
+});
