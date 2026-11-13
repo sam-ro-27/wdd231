@@ -1,0 +1,13 @@
+@media (min-width: 640px) {
+    nav a {
+        display: inline-block;
+    }
+
+    #members.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #menu {
+        display: none;
+    }
+}
