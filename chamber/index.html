@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edinburg Chamber of Commerce</title>
+    <meta name="description" content="The Edinburg Chamber of Commerce. Connecting, supporting, and growing business in Edinburg, Texas.">
+    <meta name="author" content="Samuel Rowley">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Edinburg Chamber of Commerce">
+    <meta property="og:description" content="The Edinburg Chamber of Commerce. Connecting, supporting, and growing business in Edinburg, Texas.">
+    <meta property="og:image" content="https://sam-ro-27.github.io/wdd231/chamber/images/edinburg-chamber.jpg">
+    <meta property="og:url" content="https://sam-ro-27.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/pumpkin2.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <span>Edinburg Chamber of Commerce</span>
+        <button id="menu" type="button" aria-label="Menu">☰</button>
+        <nav aria-label="Main navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section class="hero">
+            <img src="images/edinburg-chamber.jpg" alt="Edinburg Chamber of Commerce">
+            <a href="join.html">Join the Chamber</a>
+        </section>
+        <section>
+            <h2>Current Events</h2>
+            <p>Chamber Networking Lunch - Friday, November 14, 12:00 PM</p>
+            <p>Small Business Workshop - Saturday, November 15, 10:00 AM</p>
+        </section>
+        <section>
+            <h2>Weather</h2>
+            <p>Current temperature: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <div id="forecast"></div>
+        </section>
+        <section>
+            <h2>Company Spotlight</h2>
+            <div id="spotlight"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Edinburg Chamber of Commerce</p>
+        <p>Edinburg, Texas</p>
+        <p>WDD 231 Class Project</p>
+        <p>Samuel Rowley</p>
+        <p>&copy; <span id="currentyear"></span> Edinburg Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/home.js" defer></script>
+</body>
+
+</html>
