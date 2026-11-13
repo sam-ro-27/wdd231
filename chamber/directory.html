@@ -18,8 +18,33 @@
 </head>
 
 <body>
+    <header>
+        <span>Edinburg Chamber of Commerce</span>
+        <button id="menu" type="button" aria-label="Menu">☰</button>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="menu">
+            <button id="grid" type="button">▦ Grid</button>
+            <button id="list" type="button">☰ List</button>
+        </div>
+        <div id="members" class="grid"></div>
+    </main>
     <footer>
+        <p>Edinburg Chamber of Commerce</p>
+        <p>Edinburg, Texas</p>
+        <p>WDD 231 Class Project</p>
+        <p>Samuel Rowley</p>
+        <p>&copy; <span id="currentyear"></span> Edinburg Chamber of Commerce</p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/directory.js" defer></script>
 </body>
 
 </html>
