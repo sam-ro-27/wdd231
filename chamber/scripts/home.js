@@ -47,6 +47,9 @@ async function apiFetch() {
         }
     } catch (error) {
         console.log(error);
+        weatherIcon.setAttribute('src', 'https://openweathermap.org/img/wn/04n@2x.png');
+        weatherIcon.setAttribute('alt', 'Weather unavailable');
+        captionDesc.textContent = 'Weather unavailable';
     }
 }
 function displayResults(data) {
