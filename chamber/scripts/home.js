@@ -18,7 +18,12 @@ function displaySpotlight(members) {
         const name = document.createElement("h3");
         name.textContent = member.name;
         const logo = document.createElement("img");
-        logo.setAttribute("src", `images/${fitness.jpg}`);
+        logo.setAttribute("src", `images/${member.image}`);
         logo.setAttribute("alt", `Logo of ${member.name}`);
+        card.appendChild(logo);
+        card.appendChild(name);
+        spotlight.appendChild(card);
     });
 }
+
+getSpotlight();
